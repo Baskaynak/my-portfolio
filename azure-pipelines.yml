@@ -13,8 +13,8 @@ steps:
 
 - task: AzureWebApp@1  # Azure'daki web hizmetine gönderen görev
   inputs:
-    azureSubscription: 'Senin-Azure-Abonelik-Adın'
-    appName: 'Azure-App-Service-Adın'
+    azureSubscription: 'subaskaynak07'
+    appName: 'Azure-subaskaynak07'
     package: '$(System.DefaultWorkingDirectory)' # Klasördeki her şeyi gönder
 
 - script: |
