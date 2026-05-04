@@ -14,7 +14,7 @@ steps:
 - task: AzureWebApp@1  # Azure'daki web hizmetine gönderen görev
   inputs:
     azureSubscription: 'subaskaynak07'
-    appName: 'Azure-subaskaynak07'
+    appName: 'susiko'
     package: '$(System.DefaultWorkingDirectory)' # Klasördeki her şeyi gönder
 
 - script: |
