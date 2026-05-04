@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: su
+  name: su
 
 steps:
 
