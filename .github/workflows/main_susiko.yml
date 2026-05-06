@@ -24,10 +24,10 @@ jobs:
           dotnet-version: '8.x'
 
       - name: Build with dotnet
-        run: dotnet build ./ebakerdotus/ebakerdotus.csproj --configuration Release
+        run: dotnet build ./ebakerdotus.csproj --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish ./ebakerdotus/ebakerdotus.csproj -c Release -o ./publish
+        run: dotnet publish ./ebakerdotus.csproj -c Release -o ./publish
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
