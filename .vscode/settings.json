@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/310c6815-958c-4f66-98c2-dd5f137314d6/resourceGroups/su/providers/Microsoft.Web/sites/susiko",
+    "appService.deploySubpath": "."
+}
