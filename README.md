@@ -1,5 +1,5 @@
 ![ethanbaker logo](https://github.com/ethbak/personal-portfolio-website/assets/136761692/fdc15473-d9dd-440e-b3c2-153ddd19d581)
-
+.
 <div align="center">
   
 ![Static Badge](https://img.shields.io/badge/Author-Ethan_Baker-green)
