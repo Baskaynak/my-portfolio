@@ -55,18 +55,11 @@ jobs:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_FC550CC3A90C4B3BA2D5C334F3AC914C }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_AAC7BBD680C44579B8212C21AA7ECA0A }}
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_05A525FD83A34C14B0D73DA1EC0C956E }}
-
-      - name: Deploy to Azure Web App
-        id: deploy-to-webapp
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: 'susiko'
-          package: ./publish
+          
           - name: Deploy to Azure Web App
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'susiko'
+          app-name: 'BasicWeb'
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: ./publish
-          clean: true  
-          
